@@ -1,0 +1,75 @@
+/* Header with a Warm Navy Blue */
+.header {
+    background-color: #2E5984; /* Warm Steel Blue */
+    color: whitesmoke;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+.mainBody {
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+/* Left-aligned images */
+img {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 6px; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Adds a subtle depth to your travel photos */
+}
+
+/* Fixed Footer with a deeper version of the header blue */
+.footer {
+    background-color: #244769; 
+    color: white;
+    height: 25px;
+    line-height: 25px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+/* Left Align everything */
+.common {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #f1f3f5;
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #dee2e6;
+}
+
+nav a {
+    float: left;
+    padding: 12px 20px;
+    color: #2E5984; /* Match text to the theme color */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hover effect with the Warmer Blue accent */
+nav a:hover {
+    background-color: #2E5984;
+    color: white;
+}
+
+/* Keeps video and Tableau left-aligned */
+iframe, .video-wrapper, .tableauPlaceholder {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    margin-bottom: 40px;
+}
